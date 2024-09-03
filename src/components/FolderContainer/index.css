@@ -1,0 +1,39 @@
+.file-folder-bg-container {
+  background-color: rgb(226, 239, 246);
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 240px;
+}
+.folder-name-bg-container {
+  background-color: #dfdcdc;
+  height: 36px;
+  border: 1px solid #bfbfbf;
+  padding-left: 8px;
+}
+.folder-name-title {
+  font-family: "Roboto";
+}
+.file-folder-names-list-container {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 8px;
+  background-color: #fff;
+  margin-top: 0;
+  padding-top: 10px;
+  height: 170px;
+  overflow-y: auto;
+}
+.folder-name {
+  display: flex;
+  align-items: center;
+  color: rgb(96, 133, 184);
+  font-weight: 500;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  font-family: "Roboto";
+}
+.folder-icon {
+  border: none;
+  margin-left: 8px;
+}

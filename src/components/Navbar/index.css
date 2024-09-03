@@ -1,0 +1,37 @@
+.nav-bg-container {
+  max-height: 140px;
+  background-color: rgb(96, 133, 184);
+}
+.home-container {
+  padding-left: 20px;
+  background-color: rgb(226, 239, 246);
+  height: 70px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+svg {
+  font-size: 20px;
+  margin-right: 8px;
+  border-radius: 50%;
+  border: 1px solid #000;
+}
+.nav-link-container {
+  margin-left: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 8px;
+  background-color: #fff;
+}
+.link-container {
+  list-style-type: none;
+  display: flex;
+}
+.nav-link {
+  display: flex;
+  align-items: center;
+  margin-left: 14px;
+  color: rgb(81, 128, 157);
+  cursor: pointer;
+}
